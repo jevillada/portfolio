@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- heads menu -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#"> JUANES</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                   <li><a href="#inicio" onclick="seleccionar()"> INICIO</a></li>
+                   <li><a href="#sobremi" onclick="seleccionar()"> SOBRE MI</a></li>
+                   <li><a href="#skills" onclick="seleccionar()"> SKILLS</a></li>
+                   <li><a href="#contacto" onclick="seleccionar()"> CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+    </div>
+    
+    <!--seccion de inicio-->
+    <section id="inicio" class="inicio">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="C:\Users\juan esteban\Desktop\portfolio\image\e68d85ee8c837fecd41e14e6fac6f3c1985e1624-1318x1318.jpg" alt="">
+            </div>
+            <h1>JUAN ESTEBAN VILLADA OROZCO</h1>
+            <h2>Ingeniero de Sistemas - Desarrollador FullStack</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--section about me-->
+    <section id="sobremi" class="sobremi">
+        <div class="content-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Juan Villada</span> tengo 17 años y estoy estudiando ingenieria de sistemas en la universidad de EAFIT, actualmente en primer semestre, tambien estoy haciendo un curso FullStack en enyoi, aprendiendo lenguajes como HTML, CSS, JS</p>
+
+        <div class="fila">
+
+            <div class="col">
+                <h3>Datos personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        01/08/2006
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        311 801 78 71
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        juanesvillada.o@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        calle 46sur #46c100
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="container-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <span>GYM</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-regular fa-futbol"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-computer"></i>
+                        <span>TECNOLOGIA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>AUTOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-motorcycle"></i>
+                        <span>MOTOS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        </div>
+    </section>
+
+    <!--section skills-->
+    <section id="skills" class="skills">
+        <div class="content-section">
+           <h2>skills</h2> 
+           <div class="fila">
+            <!--technical skills-->
+            <div class="col">
+            <h3>habilidades tecnicas</h3>
+            <div class="skill">
+                <span>Javascript</span>
+                <div class="barra-skill">
+                    <div class="progreso javascript">
+                        <span>15%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>HTML & CSS</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Java</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>30%</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--professional skills-->
+            <div class="col">
+                <h3>habilidades profesionales</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Liderazgo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>87%</span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        </div>
+    </section>
+
+    <!--section contacto-->
+    <section id="contacto" class="contacto">
+        <div class="content-section">
+            <h2>CONTACTO</h2>
+             <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                  <input type="text" placeholder="Nombre">
+                  <input type="text" placeholder="Numero">
+                  <input type="text" placeholder="Email">
+                  <input type="text" placeholder="tema">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                  <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                  </button>
+                </div>
+                <!--mapa-->
+                <div class="col">
+                   <img src="" alt="">
+                   <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            primavera, envigado
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile"></i>
+                            Celular: 311 8017871
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Correo: juanesvillada.o@gmail.com
+                        </li>
+                    </ul>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
